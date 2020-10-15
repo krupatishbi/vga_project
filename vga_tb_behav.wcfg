@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vga_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vga_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="6983676805fs"></ZoomStartTime>
+      <ZoomEndTime time="7103918620fs"></ZoomEndTime>
+      <Cursor1Time time="6994642000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="194"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wave_markers>
+      <marker time="97543582000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/vga_tb/UUT/clk_in1" type="logic">
+      <obj_property name="ElementShortName">clk_in1</obj_property>
+      <obj_property name="ObjectShortName">clk_in1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/rst_" type="logic">
+      <obj_property name="ElementShortName">rst_</obj_property>
+      <obj_property name="ObjectShortName">rst_</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/VGA_HS" type="logic">
+      <obj_property name="ElementShortName">VGA_HS</obj_property>
+      <obj_property name="ObjectShortName">VGA_HS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/VGA_VS" type="logic">
+      <obj_property name="ElementShortName">VGA_VS</obj_property>
+      <obj_property name="ObjectShortName">VGA_VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/VGA_R" type="array">
+      <obj_property name="ElementShortName">VGA_R[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_R[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/VGA_G" type="array">
+      <obj_property name="ElementShortName">VGA_G[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_G[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/VGA_B" type="array">
+      <obj_property name="ElementShortName">VGA_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_B[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/enable_V_counter" type="logic">
+      <obj_property name="ElementShortName">enable_V_counter</obj_property>
+      <obj_property name="ObjectShortName">enable_V_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/H_count_value" type="array">
+      <obj_property name="ElementShortName">H_count_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_count_value[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/V_count_value" type="array">
+      <obj_property name="ElementShortName">V_count_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">V_count_value[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/pre_reset" type="logic">
+      <obj_property name="ElementShortName">pre_reset</obj_property>
+      <obj_property name="ObjectShortName">pre_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/top" type="array">
+      <obj_property name="ElementShortName">top[8:0]</obj_property>
+      <obj_property name="ObjectShortName">top[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/left" type="array">
+      <obj_property name="ElementShortName">left[9:0]</obj_property>
+      <obj_property name="ObjectShortName">left[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/length" type="array">
+      <obj_property name="ElementShortName">length[9:0]</obj_property>
+      <obj_property name="ObjectShortName">length[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/height" type="array">
+      <obj_property name="ElementShortName">height[8:0]</obj_property>
+      <obj_property name="ObjectShortName">height[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/v_x" type="array">
+      <obj_property name="ElementShortName">v_x[6:0]</obj_property>
+      <obj_property name="ObjectShortName">v_x[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/v_y" type="array">
+      <obj_property name="ElementShortName">v_y[6:0]</obj_property>
+      <obj_property name="ObjectShortName">v_y[6:0]</obj_property>
+   </wvobject>
+</wave_config>
