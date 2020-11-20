@@ -53,7 +53,84 @@ module top(
     assign VGA_HS = ~(H_count_value > `FRONT_PORCH_Hend && H_count_value <= `SYNC_PULSE_Hend) ? 1'b1:1'b0;
     assign VGA_VS = ~(V_count_value > `FRONT_PORCH_Vend && V_count_value <= `SYNC_PULSE_Vend) ? 1'b1:1'b0;
     
+    //code for sprite animation, basically just animates a square around the screen
+//     reg signed [9:0] top; //y coord
+//     reg signed [10:0] left; //x coord
+//     reg [9:0] length;
+//     reg [8:0] height;
+//     reg [6:0] vx_mag; //x magnitude
+//     reg [6:0] vy_mag; //y magnitude
+//     reg signed [7:0] vx_dir; //actual x direction
+//     reg signed [7:0] vy_dir; //actual y direction
+
+//   always @ (posedge clk)
+//     begin
+//         if(reset)
+//         begin
+//             length <= 20;
+//             height <= 20;
+//             vx_mag <= 5;
+//             vy_mag <= 4;
+//             vx_dir <= -vx_mag; 
+//             vy_dir <= vy_mag; 
+//         end
+//         else if (H_count_value == 0 && V_count_value == 0)
+//         begin
+//             //left edge bounce
+//             if(left <= $signed(H_count_value)) 
+//                 vx_dir <= vx_mag;
+//             //right edge bounce
+//             else if((left + length) >= `ACTIVE_Hend)
+//                 vx_dir <= -vx_mag;
+//             //top edge bounce
+//             if(top <= $signed(V_count_value))
+//                 vy_dir <= vy_mag;
+//             //bottom edge bounce
+//             else if((top + height) >= `ACTIVE_Vend)
+//                 vy_dir <= -vy_mag;
+            
+//         end
+//     end
+
+//     always @ (posedge clk)
+//     begin
+//         if(reset)
+//         begin
+//             top <= 0;
+//             left <= 0;
+//         end
+//         else
+//         begin
+//             if(H_count_value == 0 && V_count_value == 0)
+//             begin
+//                 top <= top + vy_dir;
+//                 left <= left + vx_dir;
+//             end
+//         end
+//     end
     
+// always @ (*)
+//     begin
+        
+//     //animating a square
+//     //basically just a box
+//     if(H_count_value <= `ACTIVE_Hend && V_count_value <= `ACTIVE_Vend)
+//     begin
+//         if(V_count_value >= top && V_count_value <= (top + height) && H_count_value >= left && H_count_value <= (left + length))
+//         begin
+//             VGA_R = 4'hf;
+//             VGA_G = 4'hf;
+//             VGA_B = 4'hf;
+//         end
+//         else
+//         begin
+//             VGA_R = 4'h0;
+//             VGA_G = 4'h0;
+//             VGA_B = 4'h0;
+//         end
+//     end
+// end 
+
     
     reg [3:0] present_state;
     reg [3:0] next_state;
