@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module horizontal_counter #(BACKPORCH_Hend = 799)
+module horizontal_counter #(parameter BACKPORCH_Hend = 799)
     (
     input clk,
     input reset,
