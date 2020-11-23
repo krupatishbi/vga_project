@@ -2,7 +2,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-module vertical_counter #(BACKPORCH_Vend = 524)
+module vertical_counter #(parameter BACKPORCH_Vend = 524)
     (
     input clk,
     input reset,
