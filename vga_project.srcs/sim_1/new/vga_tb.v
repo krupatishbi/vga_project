@@ -18,7 +18,7 @@ always #5 clk = ~clk;
 initial
     begin
         rst_ = 0;
-        #100
+        #5000
         rst_ = 1;
     end 
 

@@ -11,33 +11,77 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="6983676805fs"></ZoomStartTime>
-      <ZoomEndTime time="7103918620fs"></ZoomEndTime>
-      <Cursor1Time time="6994642000fs"></Cursor1Time>
+      <ZoomStartTime time="3351948551667fs"></ZoomStartTime>
+      <ZoomEndTime time="3352604551668fs"></ZoomEndTime>
+      <Cursor1Time time="3352097686000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="197"></NameColumnWidth>
-      <ValueColumnWidth column_width="194"></ValueColumnWidth>
+      <ValueColumnWidth column_width="178"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="20" />
+   <WVObjectSize size="21" />
    <wave_markers>
       <marker time="97543582000" label="" />
    </wave_markers>
-   <wvobject fp_name="/vga_tb/UUT/clk_in1" type="logic">
-      <obj_property name="ElementShortName">clk_in1</obj_property>
-      <obj_property name="ObjectShortName">clk_in1</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/rst_" type="logic">
-      <obj_property name="ElementShortName">rst_</obj_property>
-      <obj_property name="ObjectShortName">rst_</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/VGA_HS" type="logic">
-      <obj_property name="ElementShortName">VGA_HS</obj_property>
-      <obj_property name="ObjectShortName">VGA_HS</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/sprite1_top" type="array">
+      <obj_property name="ElementShortName">sprite1_top[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite1_top[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/VGA_VS" type="logic">
-      <obj_property name="ElementShortName">VGA_VS</obj_property>
-      <obj_property name="ObjectShortName">VGA_VS</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/sprite1_left" type="array">
+      <obj_property name="ElementShortName">sprite1_left[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite1_left[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/sprite2_top" type="array">
+      <obj_property name="ElementShortName">sprite2_top[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite2_top[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/sprite2_left" type="array">
+      <obj_property name="ElementShortName">sprite2_left[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite2_left[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/sprite3_top" type="array">
+      <obj_property name="ElementShortName">sprite3_top[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite3_top[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/sprite3_left" type="array">
+      <obj_property name="ElementShortName">sprite3_left[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite3_left[10:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/V_count_value" type="array">
+      <obj_property name="ElementShortName">V_count_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">V_count_value[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/H_count_value" type="array">
+      <obj_property name="ElementShortName">H_count_value[15:0]</obj_property>
+      <obj_property name="ObjectShortName">H_count_value[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/sprite2_red" type="array">
+      <obj_property name="ElementShortName">sprite2_red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite2_red[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/sprite2_grn" type="array">
+      <obj_property name="ElementShortName">sprite2_grn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite2_grn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vga_tb/UUT/sprite2_blu" type="array">
+      <obj_property name="ElementShortName">sprite2_blu[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sprite2_blu[3:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/vga_tb/UUT/VGA_R" type="array">
       <obj_property name="ElementShortName">VGA_R[3:0]</obj_property>
@@ -51,56 +95,24 @@
       <obj_property name="ElementShortName">VGA_B[3:0]</obj_property>
       <obj_property name="ObjectShortName">VGA_B[3:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/enable_V_counter" type="logic">
-      <obj_property name="ElementShortName">enable_V_counter</obj_property>
-      <obj_property name="ObjectShortName">enable_V_counter</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/sprite1_vld" type="logic">
+      <obj_property name="ElementShortName">sprite1_vld</obj_property>
+      <obj_property name="ObjectShortName">sprite1_vld</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/H_count_value" type="array">
-      <obj_property name="ElementShortName">H_count_value[15:0]</obj_property>
-      <obj_property name="ObjectShortName">H_count_value[15:0]</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/sprite2_vld" type="logic">
+      <obj_property name="ElementShortName">sprite2_vld</obj_property>
+      <obj_property name="ObjectShortName">sprite2_vld</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/V_count_value" type="array">
-      <obj_property name="ElementShortName">V_count_value[15:0]</obj_property>
-      <obj_property name="ObjectShortName">V_count_value[15:0]</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/sprite3_vld" type="logic">
+      <obj_property name="ElementShortName">sprite3_vld</obj_property>
+      <obj_property name="ObjectShortName">sprite3_vld</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/reset" type="logic">
-      <obj_property name="ElementShortName">reset</obj_property>
-      <obj_property name="ObjectShortName">reset</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/sprite2/lp_40x40_rom/GRN" type="array">
+      <obj_property name="ElementShortName">GRN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">GRN[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/pre_reset" type="logic">
-      <obj_property name="ElementShortName">pre_reset</obj_property>
-      <obj_property name="ObjectShortName">pre_reset</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/locked" type="logic">
-      <obj_property name="ElementShortName">locked</obj_property>
-      <obj_property name="ObjectShortName">locked</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/top" type="array">
-      <obj_property name="ElementShortName">top[8:0]</obj_property>
-      <obj_property name="ObjectShortName">top[8:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/left" type="array">
-      <obj_property name="ElementShortName">left[9:0]</obj_property>
-      <obj_property name="ObjectShortName">left[9:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/length" type="array">
-      <obj_property name="ElementShortName">length[9:0]</obj_property>
-      <obj_property name="ObjectShortName">length[9:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/height" type="array">
-      <obj_property name="ElementShortName">height[8:0]</obj_property>
-      <obj_property name="ObjectShortName">height[8:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/v_x" type="array">
-      <obj_property name="ElementShortName">v_x[6:0]</obj_property>
-      <obj_property name="ObjectShortName">v_x[6:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/vga_tb/UUT/v_y" type="array">
-      <obj_property name="ElementShortName">v_y[6:0]</obj_property>
-      <obj_property name="ObjectShortName">v_y[6:0]</obj_property>
+   <wvobject fp_name="/vga_tb/UUT/sprite2/lp_40x40_rom/BLU" type="array">
+      <obj_property name="ElementShortName">BLU[7:0]</obj_property>
+      <obj_property name="ObjectShortName">BLU[7:0]</obj_property>
    </wvobject>
 </wave_config>
