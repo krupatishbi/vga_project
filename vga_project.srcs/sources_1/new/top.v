@@ -55,13 +55,14 @@ module top(
     
     
     //state machiine with one hot encoding
-    reg [5:0] present_state;
-    parameter idle = 6'b000001;
-    parameter edge_a = 6'b000010;
-    parameter edge_b = 6'b000100;
-    parameter edge_c = 6'b001000;
-    parameter done = 6'b010000;
-    parameter transient = 6'b100000;
+    reg [6:0] present_state;
+    parameter idle = 7'b0000001;
+    parameter edge_a = 7'b0000010;
+    parameter edge_b = 7'b0000100;
+    parameter edge_c = 7'b0001000;
+    parameter done = 7'b0010000;
+    parameter transient = 7'b0100000;
+    parameter transient2 = 7'b1000000;
     //variables for BRAM block
     reg [18:0] write_addr;
     reg [18:0] read_addr;
@@ -115,9 +116,11 @@ module top(
                 edge_a:
                 begin
                     write_enable <= 1;
-                    mar_x <= mar_x + 1;
+                    //mar_x <= mar_x + 1;
                     if(mar_x == (x1-1)) //x1 = (x0 + 2*halflength) - 1
                         present_state <= edge_b;
+                    else
+                        mar_x <= mar_x + 1;
                 end
                 edge_b:
                 begin
@@ -138,9 +141,13 @@ module top(
                     mar_y <= mar_y + 1;
                     if(mar_x == (x0+1))
                     begin
-                        present_state <= done;
-                        
+                        present_state <= transient2;
                     end
+                end
+                transient2:
+                begin
+                    mar_y <= mar_y + 1;
+                    present_state <= done;
                 end
                 done:
                 begin
