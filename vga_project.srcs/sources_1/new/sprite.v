@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
-`define SPRITE_WID (40)
-`define SPRITE_HGT (40)
+`define SPRITE_WID (64)
+`define SPRITE_HGT (64)
 
 module sprite(
     input CLK,
@@ -36,7 +36,7 @@ module sprite(
     wire [7:0] red_t;    
     wire [7:0] grn_t;    
     wire [7:0] blu_t;    
-lp_40x40_rom lp_40x40_rom(
+professor_farnsworth_64x64_rom professor_farnsworth_64x64_rom(
     .x_idx(sprite_local_x[5:0]),
     .y_idx(sprite_local_y[5:0]),
     .RED  (red_t  ),

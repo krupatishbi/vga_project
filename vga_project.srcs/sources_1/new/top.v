@@ -96,8 +96,8 @@ module top(
      begin
          if(reset)
          begin
-             length <= 40;
-             height <= 40;
+             length <= 64;
+             height <= 64;
              vx_mag <= 7;
              vy_mag <= 5;
              sprite1_vx_dir <= -vx_mag; 

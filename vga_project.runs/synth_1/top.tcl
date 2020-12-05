@@ -34,7 +34,7 @@ set_property ip_output_repo c:/Users/pearlstl/Documents/GitHub/lp_sprites/vga_pr
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
   C:/Users/pearlstl/Documents/GitHub/lp_sprites/vga_project.srcs/sources_1/new/horizontal_counter.v
-  C:/Users/pearlstl/Documents/GitHub/lp_sprites/lp_40x40.v
+  C:/Users/pearlstl/Documents/GitHub/lp_sprites/professor_farnsworth_64x64.v
   C:/Users/pearlstl/Documents/GitHub/lp_sprites/vga_project.srcs/sources_1/new/sprite.v
   C:/Users/pearlstl/Documents/GitHub/lp_sprites/vga_project.srcs/sources_1/new/vertical_counter.v
   C:/Users/pearlstl/Documents/GitHub/lp_sprites/vga_project.srcs/sources_1/new/top.v
