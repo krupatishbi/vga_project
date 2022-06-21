@@ -1,6 +1,5 @@
 # vga_project
-
-So, you wanna work on the VGA project? Awesome! A couple of tips to help you get started because I did not comment my code very well at all and it might be confusing.
+A couple of tips to help you get started because I did not comment my code very well at all and it might be confusing.
 
 For those of you working on sprite animation, the latest commit to top.v has the sprite animation code in it, but it is commented out. Some aspects of the code may be unclear to some of you so if you need to reach me to ask any questions at all, my email is tishbik1@tcnj.edu . Also, make sure you delete the portion of my code in top.v that has to do with line drawing.
 
